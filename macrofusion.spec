@@ -1,6 +1,6 @@
 Name:		macrofusion
 Version:	0.7.2
-Release:	1
+Release:	2
 Group:		Graphics
 Summary:	GUI for HDR tool Enfuse
 License:	GPLv3
@@ -28,8 +28,8 @@ install -m 755 -D macrofusion.py %{buildroot}%{_bindir}/macrofusion
 install -m 644 -D macrofusion.desktop %{buildroot}%{_datadir}/applications/macrofusion.desktop
 install -d -m 755 %{buildroot}%{_datadir}/mfusion/ui
 install -m 644 ui/* %{buildroot}%{_datadir}/mfusion/ui/
-install -d -m 755 %{buildroot}%{_datadir}/pixmaps/macrofusion
-install -m 644 images/* %{buildroot}%{_datadir}/pixmaps/macrofusion/
+install -D -m 644 images/macrofusion.png %{buildroot}%{_datadir}/pixmaps/macrofusion.png
+install -D -m 644 images/logoSplash.png %{buildroot}%{_datadir}/mfusion/images/logoSplash.png
 for file in locale/*/LC_MESSAGES/*.mo
 do
 install -D -m 644 $file %{buildroot}%{_datadir}/$file
@@ -39,7 +39,7 @@ done
 
 %files -f MacroFusion.lang
 %{_bindir}/macrofusion
-%{_datadir}/mfusion/*
-%{_datadir}/pixmaps/macrofusion/*
+%{_datadir}/mfusion/
+%{_datadir}/pixmaps/macrofusion.png
 %{_datadir}/applications/macrofusion.desktop
 %doc README CHANGELOG TODO
