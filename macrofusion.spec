@@ -1,12 +1,11 @@
 Name:		macrofusion
-Version:	0.7.2
-Release:	3
+Version:	0.7.3
+Release:	1
 Group:		Graphics
 Summary:	GUI for HDR tool Enfuse
 License:	GPLv3
 URL:		http://sourceforge.net/projects/macrofusion
 Source0:	http://sourceforge.net/projects/macrofusion/files/%{name}-%{version}/%{name}_%{version}.orig.tar.gz
-Source1:	macrofusion-ru.tar.xz
 BuildArch:	noarch
 Requires:	python
 Requires:	python-imaging
@@ -20,7 +19,7 @@ easy fusion few photos to one with great DOF (Deep of Field) or DR (Dynamic
 Range). It can be useful for every macro lovers or landscapers.
 
 %prep
-%setup -q -a1
+%setup -q
 
 %build
 
