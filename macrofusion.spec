@@ -43,3 +43,27 @@ done
 %{_datadir}/pixmaps/macrofusion.png
 %{_datadir}/applications/macrofusion.desktop
 %doc README CHANGELOG TODO
+
+
+%changelog
+* Sun Feb 19 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.7.3-1
++ Revision: 777444
+- update to 0.7.3
+- drop separate Russian localisation files as they are merged upstream
+
+* Mon Feb 06 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.7.2-3
++ Revision: 771320
+- add russian translation
+
+* Tue Jan 31 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.7.2-2
++ Revision: 770034
+- fixed file installation paths
+
+* Tue Jan 31 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.7.2-1
++ Revision: 770024
+- new version 0.7.2
+
+* Tue Nov 15 2011 Andrey Smirnov <asmirnov@mandriva.org> 0.6-1
++ Revision: 730781
+- imported package macrofusion
+
