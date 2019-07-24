@@ -1,6 +1,6 @@
 Name:		macrofusion
-Version:	0.7.3
-Release:	2
+Version:	0.7.4
+Release:	1
 Group:		Graphics
 Summary:	GUI for HDR tool Enfuse
 License:	GPLv3
