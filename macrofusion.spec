@@ -4,7 +4,7 @@ Release:	1
 Group:		Graphics
 Summary:	GUI for HDR tool Enfuse
 License:	GPLv3
-URL:		http://sourceforge.net/projects/macrofusion
+URL:		https://sourceforge.net/projects/macrofusion
 Source0:	http://sourceforge.net/projects/macrofusion/files/%{name}-%{version}/%{name}_%{version}.orig.tar.gz
 BuildArch:	noarch
 Requires:	python
